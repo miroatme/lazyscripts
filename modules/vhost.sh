@@ -66,8 +66,8 @@ function noSSL() {
 		# LogLevel warn
 
 		# SSLEngine on
-		# SSLCertificateFile    /etc/pki/tls/certs/$doamin.crt
-		# SSLCertificateKeyFile /etc/pki/tls/private/$doamin.key
+		# SSLCertificateFile    /etc/pki/tls/certs/$domain.crt
+		# SSLCertificateKeyFile /etc/pki/tls/private/$domain.key
 		# SSLCertificateChainFile /etc/pki/tls/certs/CA.crt		
 
 		# <FilesMatch "\.(cgi|shtml|phtml|php)$">
