@@ -17,10 +17,10 @@ function lsgethelper() {
                 cd ${LZDIR} \
                 && git reset --hard HEAD \
                 && git clean -f	\
-                && git pull git://github.com/hhoover/lazyscripts.git master; \
+                && git pull git://github.com/miroatme/lazyscripts.git master; \
         else
                 cd \
-                && git clone git://github.com/hhoover/lazyscripts.git ${LZDIR};
+                && git clone git://github.com/miroatme/lazyscripts.git ${LZDIR};
         fi
         cd;
         source ${LZDIR}/ls-init.sh;
